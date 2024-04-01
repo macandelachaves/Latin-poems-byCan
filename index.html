@@ -4,29 +4,56 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/style.css" />
+    <link rel="stylesheet" href="src/index.css" />
     <title>Document</title>
   </head>
   <body>
-    <h1>Welcome to a Latin Poems page</h1>
-    <footer>
-      This page was created by
-      <a href="https://github.com/macandelachaves" target="_blank"
-        >Candela Chaves
-      </a>
-      and it's
-      <a
-        href="https://github.com/macandelachaves/Latin-poems-byCan"
-        target="_blank"
-        >an opened sourced</a
-      >. You can also find it on
-      <a
-        href="https://latin-poems-bycan.netlify.app/"
-        target="
+    <div class="container">
+      <header>
+        <h1>Welcome to a Latin Poems page</h1>
+      </header>
+      <main>
+        <form
+          action="
+"
+        >
+          <input
+            type="text"
+            placeholder="Enter the topic of the latin poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="poem-request"
+          />
+          <input type="submit" value="SUBMIT" class="poem-request-button" />
+        </form>
+        <div class="main-poem">
+          No te rindas, por favor, no cedas, aunque el frio queme,
+          <br />
+          aunque el miedo muerda, aunque el sol se escona y se calle el viento,
+          <br />
+          aún hay fuego en tu alma, aún hay vida en tus sueños.
+        </div>
+      </main>
+      <footer>
+        This page was created by
+        <a href="https://github.com/macandelachaves" target="_blank"
+          >Candela Chaves
+        </a>
+        and it's
+        <a
+          href="https://github.com/macandelachaves/Latin-poems-byCan"
+          target="_blank"
+          >an opened sourced</a
+        >. You can also find it on
+        <a
+          href="https://latin-poems-bycan.netlify.app/"
+          target="
         "
-        >Netlify</a
-      >
-    </footer>
-    <script src="src/index.js"></script>
+          >Netlify</a
+        >
+      </footer>
+      <script src="src/index.js"></script>
+    </div>
   </body>
 </html>

@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/index.css" />
     <title>Document</title>
   </head>
@@ -16,6 +17,7 @@
         <form
           action="
 "
+          id="poem-form"
         >
           <input
             type="text"
@@ -27,13 +29,7 @@
           />
           <input type="submit" value="SUBMIT" class="poem-request-button" />
         </form>
-        <div class="main-poem">
-          No te rindas, por favor, no cedas, aunque el frio queme,
-          <br />
-          aunque el miedo muerda, aunque el sol se escona y se calle el viento,
-          <br />
-          aún hay fuego en tu alma, aún hay vida en tus sueños.
-        </div>
+        <div class="main-poem" id="main-poem"></div>
       </main>
       <footer>
         This page was created by
